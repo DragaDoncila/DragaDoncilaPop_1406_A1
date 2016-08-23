@@ -1,4 +1,4 @@
-#header, #logo, #sitebranding, #tagline{
+#header, #logo, #sitebranding, #tagline, #navigation, #socialMedia{
     border: 1px solid red;
 }
 
@@ -8,9 +8,37 @@
 
 #header {
     float: left;
-    width: 100%;
+    width: 1190px;
 }
 
 #sitebranding {
     float: left;
 }
+
+#navigation{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 166px;
+    /*padding-right: 5px;*/
+    /*padding-top: 5px;*/
+    /*margin-right: 3px;*/
+}
+
+#socialMedia{
+    position: fixed;
+    top: 92px;
+    right: 0px;
+    /*padding-right: 5px;*/
+    /*margin-top: 5px;*/
+    /*margin-right: 3px;*/
+    width: 166px;
+}
+
+
+#navigation li, #navigation ul{
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
