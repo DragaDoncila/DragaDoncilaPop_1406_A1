@@ -1,4 +1,5 @@
-#header, #logo, #sitebranding, #tagline, #navigation, #socialMedia{
+#header, #logo, #sitebranding, #tagline, #navigation,
+#socialMedia, #announcements, #happyHour, #viewLadder{
     border: 1px solid red;
 }
 
@@ -35,6 +36,20 @@
     width: 166px;
 }
 
+#announcements {
+    float: left;
+    width: 1192px;
+}
+
+#happyHour {
+    float: left;
+    width: 597px;
+}
+
+#viewLadder {
+    float: left;
+    width: 597px;
+}
 
 #navigation li, #navigation ul{
     list-style-type: none;
