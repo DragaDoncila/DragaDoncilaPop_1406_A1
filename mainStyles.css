@@ -1,0 +1,16 @@
+#header, #logo, #sitebranding, #tagline{
+    border: 1px solid red;
+}
+
+#logo {
+    float: left;
+}
+
+#header {
+    float: left;
+    width: 100%;
+}
+
+#sitebranding {
+    float: left;
+}
