@@ -1,59 +1,119 @@
-#header, #logo, #sitebranding, #tagline, #navigation,
-#socialMedia, #announcements, #happyHour, #viewLadder{
-    border: 1px solid red;
-}
+/*#navigation, #footer,*/
+/*#socialMedia, #announcements, #happyHour, #viewLadder,*/
+/*#footerContactInfo, #footerNavigation, #footerSignUp{*/
+    /*border: 1px solid red;*/
+/*}*/
+
 
 #logo {
     float: left;
 }
 
-#header {
+header {
     float: left;
-    width: 1190px;
+    width: 90%;
+    height: 115px;
+    background-color: rgba(246, 108, 16, 0.72);
+    margin: 2%;
+    border: solid;
+    border-radius: 20px 0px 20px 0px;
 }
 
 #sitebranding {
     float: left;
+    width: 100%;
 }
 
 #navigation{
     position: fixed;
-    top: 0px;
+    top: 157px;
     right: 0px;
-    width: 166px;
-    /*padding-right: 5px;*/
-    /*padding-top: 5px;*/
-    /*margin-right: 3px;*/
+    width: 14%;
+    padding: 4px;
+    margin: 1%
 }
 
 #socialMedia{
     position: fixed;
-    top: 92px;
+    top: 273px;
     right: 0px;
-    /*padding-right: 5px;*/
-    /*margin-top: 5px;*/
-    /*margin-right: 3px;*/
-    width: 166px;
+    width: 14%;
+    padding: 4px;
+    margin: 1%
 }
 
 #announcements {
     float: left;
-    width: 1192px;
+    width: 82%;
+    margin: 2%
 }
 
 #happyHour {
     float: left;
-    width: 597px;
+    width: 39%;
+    height: 250px;
+    margin: 2%
 }
 
 #viewLadder {
     float: left;
-    width: 597px;
+    width: 39%;
+    height: 250px;
+    margin: 2%;
+}
+
+#footer {
+    float: left;
+    width: 90%;
+    height: 115px;
+    margin: 2%;
+}
+
+#footerNavigation {
+    float: left;
+    width: 29%;
+    height: 115px;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+#footerSignUp {
+    float: left;
+    width: 29%;
+    margin-right: 2%;
+    margin-left: 2%;
+}
+
+#footerContactInfo {
+    float: left;
+    width: 29%;
+    margin-left: 2%;
 }
 
 #navigation li, #navigation ul{
     list-style-type: none;
     padding: 0;
     margin: 0;
+}
+
+#footerNavigation ul {
+    list-style-type: none;
+}
+
+#logo {
+    position: relative;
+    top: -6px;
+}
+
+#footer {
+    background-color: rgba(246, 108, 16, 0.72);
+    border: solid;
+    border-radius: 20px 0px 20px 0px;
+
+}
+
+body {
+    background: linear-gradient(rgba(255, 181, 3, 0.72), rgba(246, 108, 16, 0.72));
+    color: #11546c;
 }
 
