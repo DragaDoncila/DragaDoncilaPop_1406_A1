@@ -1,11 +1,7 @@
-/*#navigation, #footer,*/
-/*#socialMedia, #announcements, #happyHour, #viewLadder,*/
-/*#footerContactInfo, #footerNavigation, #footerSignUp{*/
+
+/*body div{*/
     /*border: 1px solid red;*/
 /*}*/
-body div{
-    border: 1px solid red;
-}
 
 /*All rules common to entire site*/
 #logo {
@@ -31,18 +27,24 @@ header {
     position: fixed;
     top: 157px;
     right: 0px;
-    width: 14%;
-    padding: 4px;
+    width: 12%;
+    padding: 1%;
     margin: 1%
 }
 
 #socialMedia{
     position: fixed;
-    top: 273px;
+    top: 310px;
     right: 0px;
-    width: 14%;
-    padding: 4px;
-    margin: 1%
+    width: 12%;
+    margin: 1%;
+    padding: 1%;
+}
+
+#navigation, #socialMedia{
+    background-color: #f07c20;
+    border: solid #11546c;
+    border-radius: 20px 20px 20px 20px;
 }
 
 #footer {
@@ -101,6 +103,21 @@ html {
 body {
     background: linear-gradient(rgba(255, 181, 3, 0.72), rgba(246, 108, 16, 0.72));
     color: #11546c;
+    font-family: Candara, sans-serif;
+}
+
+a:link {
+    color: #11546c;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #6b7676;
+}
+
+a:hover{
+    color: #fff8f8;
 }
 
 /*All homepage rules*/
