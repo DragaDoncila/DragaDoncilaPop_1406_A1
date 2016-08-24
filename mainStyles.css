@@ -3,8 +3,11 @@
 /*#footerContactInfo, #footerNavigation, #footerSignUp{*/
     /*border: 1px solid red;*/
 /*}*/
+body div{
+    border: 1px solid red;
+}
 
-
+/*All elements common to entire site*/
 #logo {
     float: left;
 }
@@ -40,26 +43,6 @@ header {
     width: 14%;
     padding: 4px;
     margin: 1%
-}
-
-#announcements {
-    float: left;
-    width: 82%;
-    margin: 2%
-}
-
-#happyHour {
-    float: left;
-    width: 39%;
-    height: 250px;
-    margin: 2%
-}
-
-#viewLadder {
-    float: left;
-    width: 39%;
-    height: 250px;
-    margin: 2%;
 }
 
 #footer {
@@ -116,4 +99,48 @@ body {
     background: linear-gradient(rgba(255, 181, 3, 0.72), rgba(246, 108, 16, 0.72));
     color: #11546c;
 }
+
+/*All homepage elements*/
+#announcements {
+    float: left;
+    width: 82%;
+    margin: 2%
+}
+
+#happyHour {
+    float: left;
+    width: 39%;
+    height: 250px;
+    margin: 2%
+}
+
+#viewLadder {
+    float: left;
+    width: 39%;
+    height: 250px;
+    margin: 2%;
+}
+
+/*All about volleyball elements*/
+
+#volleyballRules{
+    float: left;
+    width: 82%;
+    margin: 2%;
+
+}
+
+#playingGuidelines{
+    float: left;
+    width: 82%;
+    margin: 2%;
+
+}
+
+#externalResources {
+    float: left;
+    width: 82%;
+    margin: 2%;
+}
+
 
