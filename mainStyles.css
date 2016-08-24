@@ -7,7 +7,7 @@ body div{
     border: 1px solid red;
 }
 
-/*All elements common to entire site*/
+/*All rules common to entire site*/
 #logo {
     float: left;
 }
@@ -95,12 +95,15 @@ header {
 
 }
 
+html {
+    min-height: 100%
+}
 body {
     background: linear-gradient(rgba(255, 181, 3, 0.72), rgba(246, 108, 16, 0.72));
     color: #11546c;
 }
 
-/*All homepage elements*/
+/*All homepage rules*/
 #announcements {
     float: left;
     width: 82%;
@@ -121,13 +124,12 @@ body {
     margin: 2%;
 }
 
-/*All about volleyball elements*/
+/*All about volleyball rules*/
 
 #volleyballRules{
     float: left;
     width: 82%;
     margin: 2%;
-
 }
 
 #playingGuidelines{
@@ -138,6 +140,31 @@ body {
 }
 
 #externalResources {
+    float: left;
+    width: 82%;
+    margin: 2%;
+}
+
+/*All about slammers rules*/
+
+#companyStatement{
+    float: left;
+    width: 82%;
+    margin: 2%
+}
+
+#compInfo {
+    float: left;
+    width: 39%;
+    margin: 2%;
+}
+#aboutSlammersImage {
+    float: left;
+    width: 39%;
+    margin: 2%;
+}
+
+#functionInfo {
     float: left;
     width: 82%;
     margin: 2%;
