@@ -193,4 +193,36 @@ a:hover{
     margin: 2%;
 }
 
+/*All sign up rules here*/
+
+#signUpInstructions{
+    float: left;
+    width: 82%;
+    margin: 2%;
+    margin-bottom: 0;
+}
+
+#signUpForm{
+    float: left;
+    margin: 2%;
+    margin-top: 0;
+    width: 82%;
+}
+
+.formLabels{
+    display: block;
+}
+
+td{
+    width: 315px;
+    padding-top: 5px;
+    font-weight: bold;
+}
+
+.formButtons{
+    margin: 3px;
+    padding: 3px;
+}
+
+
 
