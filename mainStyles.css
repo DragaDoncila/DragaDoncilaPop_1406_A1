@@ -19,12 +19,21 @@ header {
     margin: 2%;
     border: solid;
     border-radius: 20px 0px 20px 0px;
+    font-family: 'Kavoon', cursive;
+}
+
+h1 {
+    font-size: 38px;
+}
+
+h2 {
+    color: #0b47ac;
 }
 
 #tagline {
     position: relative;
-    top: -23px;
-    left: -25px;
+    bottom: 30px;
+    right: 25px;
 }
 
 #sidebar{
@@ -110,8 +119,7 @@ html {
 
 body {
     background: linear-gradient(rgba(255, 181, 3, 0.72), rgba(246, 108, 16, 0.72));
-    color: #11546c;
-    font-family: Candara, sans-serif;
+    color: #0b438f;
 }
 
 a:link {
@@ -132,7 +140,7 @@ a:hover{
 #announcements {
     clear: both;
     width: 82%;
-    margin: 2%;
+    margin: 2.5%;
     /*margin-bottom: 1%;*/
 }
 
@@ -163,13 +171,13 @@ a:hover{
 
 dt {
     display: inline-block;
-    width: 22%;
+    /*width: 22%;*/
     font-weight: bold;
-    font-size: 16px;
+    font-size: 18px;
     font-family: Georgia, Garamond, serif;
     color: rgba(36, 42, 126, 0.88);
     padding: 10px 0px 0px 2px;
-    background-color: rgba(247, 181, 113, 0.77);
+    /*background-color: rgba(247, 181, 113, 0.77);*/
 }
 
 dd {
@@ -192,6 +200,18 @@ dl {
     clear: both;
     width: 80%;
     margin: 3%;
+}
+
+#aboutVolleyball h2{
+    padding-bottom: 0;
+    padding-top: 5px;
+    margin-bottom: 0;
+    margin-top: 2px;
+}
+
+#aboutVolleyball p{
+    padding-top: 0;
+    margin-top: 0;
 }
 
 /*All about slammers rules*/
