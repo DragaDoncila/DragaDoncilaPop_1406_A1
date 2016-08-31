@@ -1,7 +1,7 @@
 /*All rules common to entire site*/
-body div {
-    border: 1px solid red;
-}
+/*body div {*/
+    /*border: 1px solid red;*/
+/*}*/
 
 body {
     padding-left: 10%;
@@ -66,7 +66,7 @@ h2 {
 
 #footerNavigation {
     float: left;
-    width: 29%;
+    width: 26%;
     height: 115px;
     margin-left: 2%;
     margin-right: 2%;
@@ -98,8 +98,9 @@ h2 {
 
 #footerContactInfo {
     float: left;
-    width: 29%;
+    width: 26%;
     margin-left: 2%;
+    padding: 1%;
 }
 
 #navigation li, #navigation ul{
@@ -143,19 +144,12 @@ a:hover{
 }
 
 /*All homepage rules*/
-#announcements {
-    clear: both;
-    width: 82%;
-    margin: 2.5%;
-    /*margin-bottom: 1%;*/
-}
-
  h2{
     padding-bottom: 3px;
     margin-bottom: 0;
 }
 
-#happyHour {
+#happyHourImg {
     float: left;
     width: 38.5%;
     margin: 2%;
@@ -163,14 +157,12 @@ a:hover{
 }
 
 .bodyImgs {
-
     border: 3px solid #11546c;
 }
 
-#viewLadder {
+#viewLadderImg {
     float: left;
     width: 38.5%;
-    height: 250px;
     margin: 2%;
     margin-left: 2.5%;
 }
@@ -203,13 +195,6 @@ dl {
 }
 
 /*All about volleyball rules*/
-
-#aboutVolleyball {
-    clear: both;
-    width: 80%;
-    margin: 3%;
-}
-
 #aboutVolleyball h2{
     padding-bottom: 0;
     padding-top: 5px;
@@ -223,12 +208,6 @@ body p{
 }
 
 /*All about slammers rules*/
-
-#companyStatement{
-    clear: both;
-    width: 80%;
-    margin: 3%
-}
 
 #aboutSlammersImage {
     float: left;
@@ -245,28 +224,7 @@ body p{
     margin-left: 1.5%;
 }
 
-#playingGuidelines {
-    clear: both;
-    width: 80%;
-    margin: 3%;
-}
-
 /*All sign up rules here*/
-
-#signUpInstructions{
-    clear: both;
-    width: 80%;
-    margin: 3%;
-    margin-bottom: 0;
-    margin-top: 0;
-}
-
-#signUpForm{
-    width: 80%;
-    margin: 3%;
-    margin-top: 0;
-
-}
 
 .formLabels{
     display: block;
@@ -285,14 +243,9 @@ td{
 
 /*All ladder rules here*/
 
-#ladder {
-    clear: both;
-    width: 80%;
-    margin: 2%;
-}
-
-table {
+.decoratedTable {
     background-color: rgba(247, 132, 32, 0.88);
+    box-shadow: 10px 10px 5px rgba(152, 76, 24, 0.88);
     padding: 1%;
     border: 3px solid #11546c;
 
@@ -307,6 +260,36 @@ table td{
     font-size: 18px;
     font-weight: bold;
     border-bottom: 1px solid rgba(11, 67, 143, 0.88);
+}
+
+.tableHeading {
+    text-align: right;
+    font-weight: bold;
+    border-right: 3px solid rgba(11, 67, 143, 0.88);
+    padding-right: 4px;
+}
+
+#contactUs {
+    width: 49%;
+    /*margin: 3%;*/
+}
+
+.oneColumnContent {
+    clear: both;
+    width: 80%;
+    margin: 3%;
+}
+
+#enquiryArea textarea{
+    width: 100%;
+    height: 200px;
+}
+
+#footerContactInfo table td{
+    padding: 0;
+    padding-right: 4px;
+    margin: 0;
+    font-size: 14px;
 }
 
 
