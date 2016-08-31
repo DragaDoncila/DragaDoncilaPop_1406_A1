@@ -28,17 +28,27 @@ header {
 }
 
 h1 {
-    font-size: 38px;
+    font-size: 180%;
+    position: relative;
+    top: 10px;
+    text-shadow: #fbfc30 5px 5px 5px;
 }
 
-h2 {
+h3 {
     color: #0b47ac;
+    padding-bottom: 3px;
+    margin-bottom: 0;
+    font-family: 'Kavoon', cursive;
+    text-shadow: 3px 3px 2px #fbfc30;
+    font-size: 130%;
 }
 
 #tagline {
     position: relative;
-    bottom: 30px;
+    bottom: 15px;
     right: 25px;
+    font-size: 120%;
+    text-shadow: #fbfc30 2px 2px 2px;
 }
 
 #sidebar{
@@ -144,10 +154,6 @@ a:hover{
 }
 
 /*All homepage rules*/
- h2{
-    padding-bottom: 3px;
-    margin-bottom: 0;
-}
 
 #happyHourImg {
     float: left;
@@ -170,10 +176,10 @@ a:hover{
 dt {
     display: inline-block;
     /*width: 22%;*/
-    font-weight: bold;
+    font-weight: 700;
     font-size: 18px;
-    font-family: Georgia, Garamond, serif;
-    color: rgba(36, 42, 126, 0.88);
+    font-family: "Avant Garde", sans-serif;
+    color: rgba(5, 8, 186, 0.88);
     padding: 10px 0px 0px 2px;
     /*background-color: rgba(247, 181, 113, 0.77);*/
 }
@@ -184,7 +190,7 @@ dd {
 }
 
 dl {
-    background-color: rgba(255, 157, 72, 0.77);
+    background-color: rgba(247, 132, 32, 0.77);
     border: 3px solid #11546c;
     height: 180px;
     padding: 0 1% 0 1%;
@@ -195,12 +201,12 @@ dl {
 }
 
 /*All about volleyball rules*/
-#aboutVolleyball h2{
-    padding-bottom: 0;
-    padding-top: 5px;
-    margin-bottom: 0;
-    margin-top: 2px;
-}
+/*#aboutVolleyball h2{*/
+    /*padding-bottom: 0;*/
+    /*padding-top: 5px;*/
+    /*margin-bottom: 0;*/
+    /*margin-top: 2px;*/
+/*}*/
 
 body p{
     padding-top: 0;
@@ -248,6 +254,7 @@ td{
     box-shadow: 10px 10px 5px rgba(152, 76, 24, 0.88);
     padding: 1%;
     border: 3px solid #11546c;
+    margin-bottom: 2%;
 
 }
 
