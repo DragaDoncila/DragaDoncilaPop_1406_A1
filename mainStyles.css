@@ -43,7 +43,7 @@ header {
     width: 95%;
     height: 115px;
     margin: 2%;
-    background: rgba(246, 108, 16, 0.72) url("sanda.png") no-repeat bottom;
+    background: rgba(246, 108, 16, 0.72) url("Images/sanda.png") no-repeat bottom;
     border: solid;
     border-radius: 20px 0 20px 0;
     font-family: 'Kavoon', cursive;
@@ -89,7 +89,7 @@ h3 {
     position: fixed;
     top: 157px;
     right: 0;
-    width: 12%;
+    width: 13%;
     padding: 1%;
     margin: 1%;
 }
