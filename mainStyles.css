@@ -43,7 +43,7 @@ header {
     width: 95%;
     height: 115px;
     margin: 2%;
-    background: rgba(246, 108, 16, 0.72) url("Images/sanda.png") no-repeat bottom;
+    background: rgba(246, 108, 16, 0.72) url("images/sanda.png") no-repeat bottom;
     border: solid;
     border-radius: 20px 0 20px 0;
     font-family: 'Kavoon', cursive;
@@ -159,6 +159,9 @@ h3 {
 }
 
 /*All homepage rules*/
+.bodyImgs {
+    border: 3px solid #11546c;
+}
 
 #signUpImg, #viewLadderImg {
     float: left;
@@ -166,8 +169,14 @@ h3 {
     margin: 2% 2.5% 2% 2%;
 }
 
-.bodyImgs {
-    border: 3px solid #11546c;
+#viewLadderImg{
+    margin: 2% 2.5% 0% 2%;
+}
+
+#aboutVolleyball img {
+    float: right;
+    margin: 6px 6px 15px;
+    width: 31%
 }
 
 dt {
@@ -229,7 +238,7 @@ td{
 .decoratedTable {
     background-color: rgba(247, 132, 32, 0.88);
     box-shadow: 10px 10px 5px rgba(152, 76, 24, 0.88);
-    padding: 1%;
+    padding: 2%;
     border: 3px solid #11546c;
     margin-bottom: 2%;
 
@@ -261,6 +270,24 @@ td{
     padding: 0 4px 0 4px;
     margin: 0;
     font-size: 14px;
+}
+
+#confirmation p{
+    background-color: rgba(247, 132, 32, 0.88);
+    box-shadow: 10px 10px 5px rgba(152, 76, 24, 0.88);
+    padding: 1%;
+    border: 3px solid #11546c;
+    height: 150px;
+}
+
+.caption {
+    display: inline-block;
+    width: 38.5%;
+    padding-top: 1px;
+    padding-left: 20px;
+    margin: 0;
+    font-size: 11px;
+
 }
 
 
